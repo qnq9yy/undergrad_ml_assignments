@@ -6,10 +6,11 @@ RUN apt-get update && apt-get install -y \
     sudo \
     build-essential \
     git \
-    htop\
-    btop\
+    htop \
+    btop \
     gh \
-    neovim\
+    neovim \
+    nano \ 
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
