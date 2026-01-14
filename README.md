@@ -1,4 +1,4 @@
-# minimal_container
+# Machine Learning Container
 
 A stripped down Linux container for data science 
 
@@ -26,33 +26,33 @@ A stripped down Linux container for data science
 
 ## Linux Basics
 
-| Category            | Command    | Example                | What it Does                          |       |                                 |
-| ------------------- | ---------- | ---------------------- | ------------------------------------- | ----- | ------------------------------- |
-| **Getting Help**    | `man`      | `man ls`               | Shows the manual (help) for a command |       |                                 |
-|                     | `--help`   | `ls --help`            | Quick help summary for a command      |       |                                 |
-| **Navigation**      | `pwd`      | `pwd`                  | Prints current directory              |       |                                 |
-|                     | `ls`       | `ls`                   | Lists files and folders               |       |                                 |
-|                     | `ls -l`    | `ls -l`                | Lists files with details              |       |                                 |
-|                     | `ls -a`    | `ls -a`                | Shows hidden files                    |       |                                 |
-|                     | `cd`       | `cd Documents`         | Changes directory                     |       |                                 |
-|                     | `cd ..`    | `cd ..`                | Goes up one directory                 |       |                                 |
-|                     | `cd ~`     | `cd ~`                 | Goes to home directory                |       |                                 |
-| **Files & Folders** | `touch`    | `touch file.txt`       | Creates an empty file                 |       |                                 |
-|                     | `mkdir`    | `mkdir projects`       | Creates a directory                   |       |                                 |
-|                     | `rm`       | `rm file.txt`          | Deletes a file                        |       |                                 |
-|                     | `rm -r`    | `rm -r folder`         | Deletes a folder (recursive)          |       |                                 |
-|                     | `cp`       | `cp a.txt b.txt`       | Copies files                          |       |                                 |
-|                     | `cp -r`    | `cp -r src dst`        | Copies folders                        |       |                                 |
-|                     | `mv`       | `mv old.txt new.txt`   | Moves or renames files                |       |                                 |
-| **Disk & System**   | `top`      | `top`                  | Shows running processes               |       |                                 |
-|                     | `ps`       | `ps aux`               | Lists processes                       |       |                                 |
-| **Archives**        | `tar`      | `tar -xvf file.tar`    | Extracts tar archive                  |       |                                 |
-|                     | `zip`      | `zip a.zip file.txt`   | Creates zip archive                   |       |                                 |
-|                     | `unzip`    | `unzip a.zip`          | Extracts zip archive                  |       |                                 |
-| **Shortcuts**       | `Ctrl + C` | —                      | Stops a running command               |       |                                 |
-|                     | `Ctrl + D` | —                      | Logs out / ends input                 |       |                                 |
-|                     | `↑` / `↓`  | —                      | Command history                       |       |                                 |
-| **Superuser**       | `sudo`     | `sudo apt update`      | Runs command as admin                 |       |                                 |
+| Category            | Command    | Example                | What it Does                          |
+| ------------------- | ---------- | ---------------------- | ------------------------------------- |
+| **Getting Help**    | `man`      | `man ls`               | Shows the manual (help) for a command |
+|                     | `--help`   | `ls --help`            | Quick help summary for a command      |
+| **Navigation**      | `pwd`      | `pwd`                  | Prints current directory              |
+|                     | `ls`       | `ls`                   | Lists files and folders               |
+|                     | `ls -l`    | `ls -l`                | Lists files with details              |
+|                     | `ls -a`    | `ls -a`                | Shows hidden files                    |
+|                     | `cd`       | `cd Documents`         | Changes directory                     | 
+|                     | `cd ..`    | `cd ..`                | Goes up one directory                 | 
+|                     | `cd ~`     | `cd ~`                 | Goes to home directory                | 
+| **Files & Folders** | `touch`    | `touch file.txt`       | Creates an empty file                 | 
+|                     | `mkdir`    | `mkdir projects`       | Creates a directory                   | 
+|                     | `rm`       | `rm file.txt`          | Deletes a file                        | 
+|                     | `rm -r`    | `rm -r folder`         | Deletes a folder (recursive)          | 
+|                     | `cp`       | `cp a.txt b.txt`       | Copies files                          | 
+|                     | `cp -r`    | `cp -r src dst`        | Copies folders                        | 
+|                     | `mv`       | `mv old.txt new.txt`   | Moves or renames files                | 
+| **Disk & System**   | `top`      | `top`                  | Shows running processes               | 
+|                     | `ps`       | `ps aux`               | Lists processes                       | 
+| **Archives**        | `tar`      | `tar -xvf file.tar`    | Extracts tar archive                  | 
+|                     | `zip`      | `zip a.zip file.txt`   | Creates zip archive                   | 
+|                     | `unzip`    | `unzip a.zip`          | Extracts zip archive                  | 
+| **Shortcuts**       | `Ctrl + C` | —                      | Stops a running command               | 
+|                     | `Ctrl + D` | —                      | Logs out / ends input                 | 
+|                     | `↑` / `↓`  | —                      | Command history                       | 
+| **Superuser**       | `sudo`     | `sudo apt update`      | Runs command as admin                 | 
 
 
 
