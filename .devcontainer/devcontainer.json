@@ -1,0 +1,28 @@
+{
+  "name": "ML Container",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": "..",
+    "args": {
+    "USERNAME": "user",
+    "USER_UID": "1000",
+    "USER_GID": "1000"
+    }
+  },
+  "workspaceFolder": "/workspace",
+  "remoteUser": "user",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
