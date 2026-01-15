@@ -20,7 +20,7 @@ A Linux container for data science
 | **Branches**           | `git branch`        | `git branch`                                      | Lists local branches                        |
 |                        | `git branch`        | `git branch <branch name>`                        | Creates a new branch                        |
 |                        | `git checkout`      | `git checkout <branch name>`                      | Switches branches                           |
-| **Syncing (Safe Way)** | `git pull --rebase` | `git pull --rebase`                               | Updates your branch without messy merges    |
+| **Syncing your copy**  | `git pull --rebase` | `git pull --rebase`                               | Updates your branch without messy merges    |
 | **Uploading Work**     | `git push`          | `git push origin <branch name>`                   | Pushes your branch to the remote repo       |
 | **Remote Info**        | `git remote -v`     | `git remote -v`                                   | Shows remote repo URLs                      |
 
