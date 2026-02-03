@@ -1,6 +1,7 @@
 # Use Debian-based Python (better compatibility with scientific packages)
 FROM python:3.11-slim
 
+
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     sudo \
